@@ -1,0 +1,192 @@
+/* default Css Code*/
+*{
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    color: #454545;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;        
+    color: #363958;
+}
+/*------Default clear for Float left or Right ------*/
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*------Fixed Width for page ------*/
+.fixwide{
+    width: 1170px;
+    margin: auto;
+}
+body{
+    width: 1280px;
+    margin: 0 auto;
+}
+section{
+    height: 600px;
+    width: 1170px;
+    margin-top: 30px;
+}
+.manu{
+    height: 50px;    
+}
+.manu ul{
+    float: right;
+    width: 380px;
+    margin-right: 35px;
+    height: 24px;
+    list-style: none;
+    display: block;
+}
+.manu ul li{
+    display: inline-block;
+    margin: 15px 20px ; 
+}
+.manu ul li a{
+}
+.manu ul li a:hover{
+    color: #000;
+}
+/*------End Manu part--------*/
+
+.halfpart{
+    float: left;
+    width: 45%;
+}
+.text-area p{
+    margin-left: 0px;
+}
+.image-area{
+    width: 45%;
+}
+.image-area img{
+    width: 90%;
+}
+.button{
+    color: white;
+    background-color: tomato;
+    padding: 20px 30px;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+.orangelight{
+    font-family: 'Bebas Neue', cursive;
+    color: tomato;
+}
+.fa-download{
+    color: #ffffff;
+    margin: 0px 10px;
+}
+/*------End banner1 part--------*/
+.about-area{
+    margin-top: 30px;
+    text-align: left;
+}
+.about-area>p{
+    margin-left: 0px;
+}
+/*------End banner2 part--------*/
+.latest-works{
+    background-color: #f5f6f7
+}
+
+ .latest-works{
+     height: 800px;
+ }
+.works{
+    margin:0 auto;
+    padding-top: 80px;
+    
+}
+.works h1{
+    text-align: center;
+    padding: 50px 0px;
+}
+.work{
+    background-color: #ffffff;
+    float: left;
+    width: 333px;
+    padding: 25px 0px;
+    margin-left: 35px;
+    border: 9px solid #ffffff;
+    border-radius: 20px;
+}
+.work h2{
+    margin:10px 0px 0px 30px;
+}
+.work p{
+    margin:10px 0px 0px 30px;
+}
+
+/*------End Latest-Work part--------*/
+.work-inqury{
+    height: 600px;
+}
+.lets-chat{
+    position: relative;
+}
+.lets-chat img{
+    width: 75%;
+    margin: 90px 145px;
+}
+.lets-chat h1{
+    color: white;
+    position: absolute;
+    left: 205px;
+    top:165px;
+    font-size: 55px;
+}
+.lets-chat a{
+    position: absolute;
+    right: 210px;
+    top:165px;
+}
+.text-hello{
+    text-align: center;
+}
+.text-hello h4{
+    font-family: Bebas Neue;
+    font-size: 15px;
+}
+.text-hello h3{
+    font-size: 30px;
+}
+.social{
+    width: 300px;
+    margin: 0 auto;
+}
+.social img{
+    float: left;
+    width: 40px;
+    padding: 15px 22px;
+}
+
+/*------End work-inqury part-----*/
+/*------End footer part--------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
