@@ -34,6 +34,14 @@ body{
     width: 1280px;
     margin: 0 auto;
 }
+body h1,h2,h3,h4,h5{
+    font-family: 'Bebas Neue',cursive;
+}
+body p{
+    font-family: 'Roboto',sans-serif;
+    line-height: 120%;
+    font-size: 16px;color: #464646;
+}
 section{
     height: 600px;
     width: 1170px;
@@ -157,19 +165,22 @@ section{
     text-align: center;
 }
 .text-hello h4{
-    font-family: Bebas Neue;
+    font-family:'Roboto', sans-serif;
     font-size: 15px;
+    margin: 20px;
+
 }
 .text-hello h3{
+    text-align: center;
     font-size: 30px;
 }
 .social{
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
 }
 .social img{
     float: left;
-    width: 40px;
+    width: 35px;
     padding: 15px 22px;
 }
 
